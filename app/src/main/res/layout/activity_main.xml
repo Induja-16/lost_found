@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="LOST AND FOUND"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/lostbutton"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="218dp"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        android:text="LOST"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/foundbutton"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/lostbutton"
+        android:layout_centerHorizontal="true"
+        android:text="FOUND"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="70dp" />
+
+
+</RelativeLayout>
+
